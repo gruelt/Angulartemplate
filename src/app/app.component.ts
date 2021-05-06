@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { MatSidenav } from '@angular/material/sidenav';
+import { SidebarComponent } from './pages/includes/sidebar/sidebar.component';
+import { faCoffee, faGamepad} from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-root',
@@ -10,4 +12,6 @@ import { MatSidenav } from '@angular/material/sidenav';
 
 export class AppComponent {
   title = 'angulartemp';
+  faCoffe = faCoffee;
+  faGamepad = faGamepad;
 }
